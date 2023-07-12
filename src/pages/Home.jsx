@@ -6,59 +6,31 @@ import fourth from "../images/fourth.png";
 
 const Home = () => {
   return (
-    <Carousel>
+    <Carousel className="container">
       <Carousel.Item>
-        <img
-          style={{ height: "90vh" }}
-          className="d-block w-100"
-          src={first}
-          alt="First slide"
-        />
+        <img className="img-fluid" src={first} alt="First slide" />
+
+        <Carousel.Caption className="align-middle">
+          <h3>Family</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="img-fluid" src={second} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Tradition</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          style={{ height: "90vh" }}
-          className="d-block w-100"
-          src={second}
-          alt="Second slide"
-        />
-
+        <img className="img-fluid" src={third} alt="Third slide" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Hard Work</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          style={{ height: "90vh" }}
-          className="d-block w-100"
-          src={third}
-          alt="Third slide"
-        />
+        <img className="img-fluid" src={fourth} alt="Third slide" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          style={{ height: "90vh" }}
-          className="d-block w-100"
-          src={fourth}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Fourth slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Patience</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
