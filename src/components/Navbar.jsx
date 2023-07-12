@@ -1,9 +1,17 @@
 import { BiUser, BiPencil } from "react-icons/bi";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
       <div className="container">
+        <div className="order-lg-2 nav-btns d-flex-s">
+          <button type="button" className="btn position-relative">
+            Follow Us
+            <BsFacebook className="mx-2" />
+            <BsInstagram className="mx-2" />
+          </button>
+        </div>
         <div className="order-lg-2 nav-btns">
           <button type="button" className="btn position-relative">
             <BiPencil />
@@ -12,9 +20,6 @@ const Navbar = () => {
           <button type="button" className="btn position-relative">
             <BiUser />
             Login
-          </button>
-          <button type="button" className="btn position-relative">
-            <i class="fa fa-search"></i>
           </button>
         </div>
 
@@ -28,7 +33,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse order-lg-1" id="navMenu">
-          <ul className="navbar-nav mx-auto text-center">
+          <ul className="navbar-nav">
             <li className="nav-item px-2 py-2">
               <a className="nav-link text-uppercase text-dark" href="#header">
                 Shop
@@ -45,6 +50,14 @@ const Navbar = () => {
             <li className="nav-item px-2 py-2">
               <a className="nav-link text-uppercase text-dark" href="#specials">
                 History
+              </a>
+            </li>
+            <li className="nav-item px-2 py-2">
+              <a
+                className="nav-link text-uppercase text-dark fw-bold "
+                href="#specials"
+              >
+                Cart
               </a>
             </li>
           </ul>
