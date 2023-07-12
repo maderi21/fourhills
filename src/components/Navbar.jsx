@@ -1,79 +1,53 @@
+import { BiUser, BiPencil } from "react-icons/bi";
+
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
+      <div className="container">
+        <div className="order-lg-2 nav-btns">
+          <button type="button" className="btn position-relative">
+            <BiPencil />
+            Register
+          </button>
+          <button type="button" className="btn position-relative">
+            <BiUser />
+            Login
+          </button>
+          <button type="button" className="btn position-relative">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+
         <button
-          class="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#navMenu"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
+
+        <div className="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul className="navbar-nav mx-auto text-center">
+            <li className="nav-item px-2 py-2">
+              <a className="nav-link text-uppercase text-dark" href="#header">
+                Shop
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item px-2 py-2">
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                className="nav-link text-uppercase text-dark"
+                href="#collection"
               >
-                Dropdown
+                Contact
               </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+            <li className="nav-item px-2 py-2">
+              <a className="nav-link text-uppercase text-dark" href="#specials">
+                History
+              </a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>

@@ -2,6 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import first from "../images/first.png";
 import second from "../images/second.png";
 import third from "../images/third.jpg";
+import fourth from "../images/fourth.png";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           src={first}
           alt="First slide"
         />
+
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -38,9 +40,22 @@ const Home = () => {
           src={third}
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={{ height: "90vh" }}
+          className="d-block w-100"
+          src={fourth}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
