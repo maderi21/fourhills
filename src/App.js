@@ -5,7 +5,7 @@ import Break from "./components/Break";
 import Product from "./components/Product";
 import SpecialOffer from "./components/SpecialOffer";
 import Footer from "./components/Footer";
-import Contact from "./pages/Contact";
+import Story from "./components/Story";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Break />
       <SpecialOffer />
       <Footer />
-      <Contact />
+      <Story />
     </div>
   );
 }
