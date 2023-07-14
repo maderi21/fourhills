@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DATA from "../Data";
 
 const Product = () => {
@@ -10,9 +10,9 @@ const Product = () => {
         <div class="card-body text-center">
           <h5 class="card-title">{item.title}</h5>
           <p className="lead">${item.price}</p>
-          <NavLink to={`/products/${item.id}`} class="btn btn-outline-primary">
-            Buy Now
-          </NavLink>
+          <Link to={`/products/${item.id}`} class="btn btn-outline-primary">
+            Add to Cart
+          </Link>
         </div>
       </div>
     );
@@ -23,7 +23,7 @@ const Product = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-12 text-center">
-            <h1>Product</h1>
+            <h1>In Our Cellar</h1>
             <hr />
           </div>
         </div>
