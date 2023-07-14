@@ -49,11 +49,11 @@ const DATA = [
     img: "/assets/images/semillon.png",
   },
   {
-    id: 2,
-    title: "Sauvignon",
-    price: 17,
-    desc: "Wine experts have used the phrase crisp, elegant, and fresh as a favorable description of Sauvignon blanc from the Loire Valley and New Zealand. to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-    img: "/assets/images/sauvignon.png",
+    id: 1,
+    title: "Grüner Veltliner",
+    price: 18,
+    desc: "Grüner Veltliner is an ancient variety of grapevine. Some evidence might suggest that it was grown as early as in the times of Ancient Romans.",
+    img: "/assets/images/veltliner.png",
   },
 ];
 

@@ -20,11 +20,10 @@ const Product = () => {
 
   return (
     <div>
-      <div className="container py-5">
+      <div className="container py-3">
         <div className="row">
           <div className="col-12 text-center">
             <h1>In Our Cellar</h1>
-            <hr />
           </div>
         </div>
       </div>
