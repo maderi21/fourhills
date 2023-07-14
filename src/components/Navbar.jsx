@@ -1,16 +1,16 @@
 import { BiUser, BiPencil } from "react-icons/bi";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
+import CartBtn from "./buttons/CartBtn";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
       <div className="container">
         <div className="order-lg-2 nav-btns d-flex-s">
-          <button type="button" className="btn position-relative">
-            Follow Us
-            <BsFacebook className="mx-2" />
-            <BsInstagram className="mx-2" />
-          </button>
+          <CartBtn type="button" className="btn position-relative" />
+          Follow Us
+          <BsFacebook className="mx-2" />
+          <BsInstagram className="mx-2" />
         </div>
         <div className="order-lg-2 nav-btns">
           <button type="button" className="btn position-relative">
