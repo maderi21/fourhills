@@ -43,14 +43,17 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-            <li className="nav-item px-2 py-2">
+            <Link
+              to="/contact"
+              className="nav-item px-2 py-2 text-decoration-none"
+            >
               <a
                 className="nav-link text-uppercase text-dark"
                 href="#collection"
               >
                 Contact
               </a>
-            </li>
+            </Link>
             <Link
               to="/story"
               className="nav-item px-2 py-2 text-decoration-none "
