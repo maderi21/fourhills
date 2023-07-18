@@ -7,8 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
       <div className="container">
         <div className="order-lg-2 nav-btns d-flex-s">
-          <CartBtn type="button" className="btn position-relative" />
-          Follow Us
+          <CartBtn />
           <BsFacebook className="mx-2" />
           <BsInstagram className="mx-2" />
         </div>
