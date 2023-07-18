@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 text-center">
       <div className="container">
-        <div className="order-lg-2 nav-btns d-flex-s">
+        <div className="order-lg-2 nav-btns ">
           <BsFacebook className="mx-2" />
           <BsInstagram className="mx-2" />
         </div>

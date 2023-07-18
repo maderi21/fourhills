@@ -12,28 +12,43 @@ const Home = () => {
   return (
     <>
       <Carousel className="container">
-        <Carousel.Item>
-          <img className="img-fluid" src={first} alt="First slide" />
-
-          <Carousel.Caption className="align-middle">
+        <Carousel.Item className="c-item active">
+          <img
+            className="img-fluid rounded c-img"
+            src={first}
+            alt="First slide"
+          />
+          <Carousel.Caption>
             <h3>Family</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="img-fluid" src={second} alt="Second slide" />
+        <Carousel.Item className="c-item">
+          <img
+            className="img-fluid rounded c-img"
+            src={second}
+            alt="Second slide"
+          />
 
           <Carousel.Caption>
             <h3>Tradition</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="img-fluid" src={third} alt="Third slide" />
+        <Carousel.Item className="c-item">
+          <img
+            className="img-fluid rounded c-img"
+            src={third}
+            alt="Third slide"
+          />
           <Carousel.Caption>
             <h3>Hard Work</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="img-fluid" src={fourth} alt="Third slide" />
+        <Carousel.Item className="c-item">
+          <img
+            className="img-fluid rounded c-img"
+            src={fourth}
+            alt="Third slide"
+          />
           <Carousel.Caption>
             <h3>Patience</h3>
           </Carousel.Caption>
@@ -41,6 +56,7 @@ const Home = () => {
       </Carousel>
       <Break />
       <Product />
+      <Break />
       <SpecialOffer />
       <Footer />
     </>

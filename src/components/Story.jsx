@@ -31,7 +31,7 @@ const Story = () => {
             <div className="col-md py-3">
               <img src={st} alt="About Us" className="img-fluid" />
             </div>
-            <Break />
+
             <p className="lead mb-4 py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
               molestiae earum rem doloremque, nihil delectus ullam error
@@ -55,7 +55,7 @@ const Story = () => {
             <div className="col-md py-3">
               <img src={hi} alt="About Us" className="img-fluid" />
             </div>
-            <Break />
+
             <p className="lead mb-4 py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
               molestiae earum rem doloremque, nihil delectus ullam error

@@ -4,7 +4,7 @@ const Login = () => {
       {/* <!-- Button trigger modal --> */}
       <button
         type="button"
-        className="btn btn-outline-none p-0"
+        className="btn btn-outline-none p-0 bg-primary"
         data-bs-toggle="modal"
         data-bs-target="#loginModal"
       >

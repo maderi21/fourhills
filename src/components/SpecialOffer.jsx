@@ -4,7 +4,7 @@ const SpecialOffer = () => {
   return (
     <section class="p-5">
       <div class="container">
-        <div class="special row align-items-center justify-content-between">
+        <div class="special rounded row align-items-center justify-content-between">
           <div class="col-md p-5">
             <h1 className="fw-light">Special offer!</h1>
             <p>
