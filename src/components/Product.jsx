@@ -20,9 +20,9 @@ const Product = () => {
 
   return (
     <div>
-      <div className="container py-3">
+      <div className="container">
         <div className="row">
-          <div className="col-12 text-center">
+          <div className="col-12 text-center mt-5">
             <h1>In Our Cellar</h1>
           </div>
         </div>
