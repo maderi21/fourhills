@@ -23,7 +23,7 @@ const Signup = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
-                Login
+                Register
               </h5>
               <button
                 type="button"

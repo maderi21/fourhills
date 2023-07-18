@@ -6,7 +6,7 @@ import Signup from "./buttons/Signup";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 text-center">
       <div className="container">
         <div className="order-lg-2 nav-btns d-flex-s">
           <BsFacebook className="mx-2" />
