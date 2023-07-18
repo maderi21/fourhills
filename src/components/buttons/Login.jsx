@@ -4,11 +4,11 @@ const Login = () => {
       {/* <!-- Button trigger modal --> */}
       <button
         type="button"
-        className="btn btn-outline-none d-flex justify-content-center"
+        className="btn btn-outline-none p-0"
         data-bs-toggle="modal"
         data-bs-target="#loginModal"
       >
-        <span className="fa fa-sign-in me-1"></span> Login
+        Login
       </button>
 
       {/* <!-- Modal --> */}

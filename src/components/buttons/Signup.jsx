@@ -4,11 +4,11 @@ const Signup = () => {
       {/* <!-- Button trigger modal --> */}
       <button
         type="button"
-        className="btn btn-outline-none d-flex justify-content-center"
+        className="btn btn-outline-none p-1"
         data-bs-toggle="modal"
         data-bs-target="#signupModal"
       >
-        <span className="fa fa-user-plus me-1"></span> Register
+        Register
       </button>
 
       {/* <!-- Modal --> */}
