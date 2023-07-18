@@ -4,7 +4,7 @@ const Signup = () => {
       {/* <!-- Button trigger modal --> */}
       <button
         type="button"
-        className="btn btn-outline-primary ms-2"
+        className="btn btn-outline-none d-flex justify-content-center"
         data-bs-toggle="modal"
         data-bs-target="#signupModal"
       >

@@ -1,25 +1,26 @@
 import { BiUser, BiPencil } from "react-icons/bi";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import CartBtn from "./buttons/CartBtn";
+import Login from "./buttons/Login";
+import Signup from "./buttons/Signup";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top text-center">
       <div className="container">
         <div className="order-lg-2 nav-btns d-flex-s">
-          <CartBtn />
           <BsFacebook className="mx-2" />
           <BsInstagram className="mx-2" />
         </div>
-        <div className="order-lg-2 nav-btns">
-          <button type="button" className="btn position-relative">
+        <div className="order-lg-2 nav-btns d-flex">
+          <span className="m-1">
             <BiPencil />
-            Register
-          </button>
-          <button type="button" className="btn position-relative">
+          </span>
+          <Signup />
+          <span className="m-1">
             <BiUser />
-            Login
-          </button>
+          </span>
+          <Login />
         </div>
 
         <button
@@ -52,12 +53,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item px-2 py-2">
-              <a
-                className="nav-link text-uppercase text-dark fw-bold "
-                href="#specials"
-              >
-                Cart
-              </a>
+              <CartBtn />
             </li>
           </ul>
         </div>

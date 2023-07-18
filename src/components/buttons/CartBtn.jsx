@@ -6,7 +6,7 @@ const CartBtn = () => {
   const state = useSelector((state) => state.addItem);
   return (
     <>
-      <Link to="/cart" className="btn btn-outline-primary ms-2">
+      <Link to="/cart" className="btn btn-outline-none ms-2">
         <AiOutlineShoppingCart /> Cart ({state.length})
       </Link>
     </>

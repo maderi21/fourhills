@@ -9,6 +9,7 @@ import Story from "./components/Story";
 import { Routes, Route } from "react-router-dom";
 import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
@@ -23,8 +24,7 @@ function App() {
         <Route exact path="/products/:id" component={ProductDetail} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/story" component={Story} />
       </Routes>
       <Break />
       <SpecialOffer />
