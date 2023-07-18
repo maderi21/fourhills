@@ -6,7 +6,9 @@ import Product from "./components/Product";
 import SpecialOffer from "./components/SpecialOffer";
 import Footer from "./components/Footer";
 import Story from "./components/Story";
-import { Provider } from "react-redux";
+import { Routes, Route } from "react-router-dom";
+import ProductDetail from "./components/ProductDetail";
+import Cart from "./components/Cart";
 
 function App() {
   return (
@@ -15,6 +17,15 @@ function App() {
       <Home />
       <Break />
       <Product />
+      <Routes>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Product} />
+        <Route exact path="/products/:id" component={ProductDetail} />
+        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/checkout" component={Checkout} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+      </Routes>
       <Break />
       <SpecialOffer />
       <Footer />

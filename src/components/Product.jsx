@@ -11,7 +11,7 @@ const Product = () => {
           <h5 class="card-title">{item.title}</h5>
           <p className="lead">${item.price}</p>
           <Link to={`/products/${item.id}`} class="btn btn-outline-primary">
-            Add to Cart
+            Buy Now
           </Link>
         </div>
       </div>
