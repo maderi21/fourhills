@@ -3,6 +3,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 import CartBtn from "./buttons/CartBtn";
 import Login from "./buttons/Login";
 import Signup from "./buttons/Signup";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -32,13 +33,16 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse order-lg-1" id="navMenu">
+        <div className="collapse navbar-collapse order-lg-1 " id="navMenu">
           <ul className="navbar-nav">
-            <li className="nav-item px-2 py-2">
-              <a className="nav-link text-uppercase text-dark" href="#header">
-                Shop
+            <Link to="/" className="nav-item px-2 py-2 text-decoration-none ">
+              <a
+                className="nav-link text-uppercase text-dark"
+                href="#fourhills"
+              >
+                Home
               </a>
-            </li>
+            </Link>
             <li className="nav-item px-2 py-2">
               <a
                 className="nav-link text-uppercase text-dark"
@@ -47,11 +51,12 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li className="nav-item px-2 py-2">
-              <a className="nav-link text-uppercase text-dark" href="#specials">
-                History
-              </a>
-            </li>
+            <Link
+              to="/story"
+              className="nav-item px-2 py-2 text-decoration-none "
+            >
+              <a className="nav-link text-uppercase text-dark">History</a>
+            </Link>
             <li className="nav-item px-2 py-2">
               <CartBtn />
             </li>
