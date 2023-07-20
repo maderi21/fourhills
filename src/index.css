@@ -9,13 +9,6 @@
   background-color: bisque;
 }
 
-.c-item {
-  height: 700px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .c-img {
   filter: brightness(0.7);
-  object-fit: contain;
 }

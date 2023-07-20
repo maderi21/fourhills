@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Carousel className="container">
-        <Carousel.Item className="c-item active">
+        <Carousel.Item xs={3} className="active">
           <img
             className="img-fluid rounded c-img"
             src={first}
@@ -22,7 +22,7 @@ const Home = () => {
             <h3>Family</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="c-item">
+        <Carousel.Item>
           <img
             className="img-fluid rounded c-img"
             src={second}
@@ -33,7 +33,7 @@ const Home = () => {
             <h3>Tradition</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="c-item">
+        <Carousel.Item>
           <img
             className="img-fluid rounded c-img"
             src={third}
@@ -43,7 +43,7 @@ const Home = () => {
             <h3>Hard Work</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="c-item">
+        <Carousel.Item>
           <img
             className="img-fluid rounded c-img"
             src={fourth}

@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <div className="row d-flex justify-content-center">
             <div className="col-md-6">
-              <form>
+              <form className="pb-5">
                 <div className="mb-3">
                   <label for="exampleForm" className="form-label">
                     Full Name
@@ -47,7 +47,7 @@ const Contact = () => {
                     rows="5"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline-primary">
+                <button type="submit" class="btn btn-outline-dark">
                   Send Message
                 </button>
               </form>

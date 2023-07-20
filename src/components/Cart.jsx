@@ -57,7 +57,7 @@ const Cart = () => {
         <div className="row">
           <Link
             to="/checkout"
-            className="btn btn-outline-primary mb-5 w-25 mx-auto"
+            className="btn btn-outline-dark mb-5 w-25 mx-auto"
           >
             Proceed To checkout
           </Link>

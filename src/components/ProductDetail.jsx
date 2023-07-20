@@ -41,7 +41,7 @@ const ProductDetail = () => {
             <p className="lead">{product.desc}</p>
             <button
               onClick={() => handleCart(product)}
-              className="btn btn-outline-primary my-5"
+              className="btn btn-outline-dark my-5"
             >
               {cartBtn}
             </button>

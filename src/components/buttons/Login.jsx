@@ -77,7 +77,7 @@ const Login = () => {
                 </div>
                 <button
                   type="submit"
-                  className="btn btn-outline-primary w-100 mt-5"
+                  className="btn btn-outline-dark w-100 mt-5"
                 >
                   Submit
                 </button>
