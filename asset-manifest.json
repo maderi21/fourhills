@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fourhills/static/css/main.ead4d739.css",
+    "main.js": "/fourhills/static/js/main.d440786c.js",
+    "static/media/third.jpg": "/fourhills/static/media/third.2af2152329da96542d31.jpg",
+    "static/media/first.png": "/fourhills/static/media/first.f964ad3f042089a62bc5.png",
+    "static/media/second.png": "/fourhills/static/media/second.b4f5bebe8d73ea28a969.png",
+    "static/media/fourth.png": "/fourhills/static/media/fourth.aee730d37c35c1ad2fd6.png",
+    "static/media/history.jpg": "/fourhills/static/media/history.86cd65ad200719c13d9b.jpg",
+    "static/media/story.jpg": "/fourhills/static/media/story.62d79fc81c899e922897.jpg",
+    "static/media/sp.jpg": "/fourhills/static/media/sp.c8bc427152afd39a3563.jpg",
+    "static/media/leaves.png": "/fourhills/static/media/leaves.719f4513fa33c720e7e6.png",
+    "index.html": "/fourhills/index.html",
+    "main.ead4d739.css.map": "/fourhills/static/css/main.ead4d739.css.map",
+    "main.d440786c.js.map": "/fourhills/static/js/main.d440786c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead4d739.css",
+    "static/js/main.d440786c.js"
+  ]
+}
