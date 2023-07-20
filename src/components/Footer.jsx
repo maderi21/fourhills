@@ -1,6 +1,7 @@
 import { BsFillPinMapFill, BsPhoneVibrate } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,28 +19,8 @@ const Footer = () => {
               cupiditate soluta saepe impedit possimus nihil nisi natus!
             </p>
           </div>
-          <div className="col-md-6 col-lg-3">
-            <h5 className="fw-light">Links</h5>
-            <ul className="">
-              <li className="my-3">
-                <a href="#" class="text-white text-decoration-none">
-                  <i className="fas fa-chevron-right me-1 "></i>Shop
-                </a>
-              </li>
-              <li className="my-3">
-                <a href="#" class="text-white text-decoration-none">
-                  Contact
-                </a>
-              </li>
-              <li className="my-3">
-                <a href="#" class="text-white text-decoration-none">
-                  <i className="fas fa-chevron-right me-1 "></i>History
-                </a>
-              </li>
-            </ul>
-          </div>
 
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-6">
             <h5 className="fw-light mb-3">Contact Us</h5>
             <div className="d-flex justify-content-start align-items-start my-2">
               <span className="me-3">
@@ -67,7 +48,9 @@ const Footer = () => {
               <ul className="list-unstyled d-flex">
                 <li>
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/profile.php?id=1617340063"
                     className=" fs-4 me-4 text-white text-decoration-none"
                   >
                     <BsFacebook />
@@ -75,7 +58,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/"
                     className="fs-4 me-4 text-white text-decoration-none"
                   >
                     <BsInstagram />
@@ -83,7 +68,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"
                     className=" fs-4 me-4 text-white text-decoration-none"
                   >
                     <BsTwitter />
