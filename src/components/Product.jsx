@@ -6,13 +6,13 @@ const Product = () => {
   const cardItem = (item) => {
     return (
       <div
-        class="card my-5 py-4 bg-primary"
+        className="card my-5 py-4 bg-primary"
         key={item.id}
         style={{ width: "18rem" }}
       >
         <img src={item.img} class="card-img-top" alt={item.title} />
-        <div class="card-body text-center">
-          <h5 class="card-title">{item.title}</h5>
+        <div className="card-body text-center">
+          <h5 className="card-title">{item.title}</h5>
           <p className="lead">${item.price}</p>
           <Link to={`/products/${item.id}`} class="btn btn-outline-dark">
             Buy Now

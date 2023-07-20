@@ -5,10 +5,10 @@ import SpecialO from "../pages/SpecialO";
 const SpecialOffer = () => {
   const navigate = useNavigate();
   return (
-    <section class="p-5">
-      <div class="container">
-        <div class="special rounded row align-items-center justify-content-between">
-          <div class="col-md p-5">
+    <section className="p-5">
+      <div className="container">
+        <div className="special rounded row align-items-center justify-content-between">
+          <div className="col-md p-5">
             <h1 className="fw-light">Special offer!</h1>
             <p>
               Indulge in the finest selection of wines and experience the
@@ -25,8 +25,8 @@ const SpecialOffer = () => {
               See More
             </button>
           </div>
-          <div class="col-md">
-            <img class="img-fluid p-0" src={sp} alt="" />
+          <div className="col-md">
+            <img className="img-fluid p-0" src={sp} alt="" />
           </div>
         </div>
       </div>

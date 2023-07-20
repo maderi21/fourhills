@@ -1,7 +1,7 @@
 const SpecialO = () => {
   return (
-    <div className="text-dark">
-      <h1>Special Offer</h1>
+    <div className="container text-center p-5">
+      <h1 className="m-3">Special Offer</h1>
       <p>
         Embark on a journey through the vineyards, where each sip tells a unique
         story of craftsmanship and passion. From velvety reds to crisp whites,
@@ -23,9 +23,14 @@ const SpecialO = () => {
         your orders securely. Join us in celebrating the passion, dedication,
         and artistry that make every sip of our wine a memorable experience.
         Cheers to you, and we look forward to welcoming you to our vineyard
-        during the Special Vine Offer! 🍷🍇 Four Hills - Where Dreams of
-        Exceptional Wine Come True! 🍇🍷
+        during the Special Vine Offer!
       </p>
+      <h4 className="bg-primary">
+        Use Promo Code <span className="fw-bold">4hills</span>
+      </h4>
+      <h4 className="m-5">
+        🍷🍇 Four Hills - Where Dreams of Exceptional Wine Come True! 🍇🍷
+      </h4>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Contact from "./pages/Contact";
+import SpecialO from "./pages/SpecialO";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/story" element={<Story />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/SpecialO" element={<SpecialO />} />
       </Routes>
     </div>
   );

@@ -8,15 +8,16 @@ const Footer = () => {
     <footer className="bg-dark py-5 mt-5">
       <div className="container">
         <div className="row text-white g-4">
-          <div class="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3">
             <a href="index.html" className="text-decoration-none text-white">
               FourHills
             </a>
             <p className="text-white mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
-              eveniet necessitatibus cum, maiores dolorum culpa ut mollitia
-              blanditiis perspiciatis, magnam voluptates, reprehenderit
-              cupiditate soluta saepe impedit possimus nihil nisi natus!
+              At Four Hills we believe that great wines are born from a
+              harmonious balance between nature and craftsmanship. Our vineyard
+              is blessed with the perfect terroir, where the soil, climate, and
+              altitude converge to create an idyllic environment for our vines
+              to flourish
             </p>
           </div>
 
